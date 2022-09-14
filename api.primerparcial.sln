@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api.primerparcial", "api.primerparcial\api.primerparcial.csproj", "{C9725888-87D1-48D2-9352-B586658AAADB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9725888-87D1-48D2-9352-B586658AAADB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9725888-87D1-48D2-9352-B586658AAADB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9725888-87D1-48D2-9352-B586658AAADB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9725888-87D1-48D2-9352-B586658AAADB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C16F96F-B90D-42A6-B8F2-86ECECA83766}
+	EndGlobalSection
+EndGlobal
