@@ -1202,11 +1202,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\devPB\\source\\repos\\dotnetabm\\api.primerparcial\\api.primerparcial\\api.primerparcial.csproj",
+      "projectUniqueName": "C:\\Users\\devPB\\source\\repos\\primerparcial\\api.primerparcial\\api.primerparcial.csproj",
       "projectName": "api.primerparcial",
-      "projectPath": "C:\\Users\\devPB\\source\\repos\\dotnetabm\\api.primerparcial\\api.primerparcial\\api.primerparcial.csproj",
+      "projectPath": "C:\\Users\\devPB\\source\\repos\\primerparcial\\api.primerparcial\\api.primerparcial.csproj",
       "packagesPath": "C:\\Users\\devPB\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\devPB\\source\\repos\\dotnetabm\\api.primerparcial\\api.primerparcial\\obj\\",
+      "outputPath": "C:\\Users\\devPB\\source\\repos\\primerparcial\\api.primerparcial\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\devPB\\AppData\\Roaming\\NuGet\\NuGet.Config",

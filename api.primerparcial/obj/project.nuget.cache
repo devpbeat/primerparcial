@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WO3UgjzgH0CuPJRHP8UluGI0kv5SZQDIL1xzWs3/BkzCl4gD1Q4JHrt1Za9DjVBeVfSlX0HLN9xls1s1niamHQ==",
+  "dgSpecHash": "deq8ZGrCL9GsTeViIPY/nADnfEi1Xs7vQrmxwSCsiRhllPkxqeOWTigKhNgDLKdweNO2YJMzIyecL8dUtJz2hg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\devPB\\source\\repos\\dotnetabm\\api.primerparcial\\api.primerparcial\\api.primerparcial.csproj",
+  "projectFilePath": "C:\\Users\\devPB\\source\\repos\\primerparcial\\api.primerparcial\\api.primerparcial.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\devPB\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\devPB\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.9\\microsoft.entityframeworkcore.6.0.9.nupkg.sha512",

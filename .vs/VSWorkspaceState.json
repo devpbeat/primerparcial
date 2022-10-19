@@ -1,7 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\api.primerparcial",
+    "\\api.primerparcial\\Data",
+    "\\api.primerparcial\\Models",
+    "\\api.primerparcial\\Views",
+    "\\api.primerparcial\\Views\\Clientes"
   ],
-  "SelectedNode": "\\C:\\Users\\devPB\\Source\\Repos\\primerparcial",
+  "SelectedNode": "\\api.primerparcial\\Views\\Clientes",
   "PreviewInSolutionExplorer": false
 }
