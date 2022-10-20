@@ -43,6 +43,12 @@ app.MapGet("/cliente/{id:int}", async (int id, PrimerParcialApp db) =>
     return await db.Clientes.FindAsync(id) is Cliente cliente ? Results.Ok(cliente) : Results.NotFound();
 });
 
+app.MapGet("/cliente/", async (PrimerParcialApp db) =>
+{
+    var cliente = await db.Clientes.ToListAsync();
+    return  cliente is not null? Results.Ok(cliente) : Results.NotFound();
+});
+
 app.MapPut("/cliente/{id}", async (int id, Cliente cliente, PrimerParcialApp db) =>
 {
     var cli = await db.Clientes.FindAsync(id);
@@ -88,6 +94,12 @@ app.MapPost("/ciudad/", async (Ciudad ciudad, PrimerParcialApp db) =>
     return Results.Created($"/ciudad/{ciudad.Id}", ciudad);
 });
 
+app.MapGet("/ciudad/", async (PrimerParcialApp db) =>
+{
+    var ciudad = await db.Ciudades.ToListAsync();
+    return ciudad is not null ? Results.Ok(ciudad) : Results.NotFound();
+});
+
 app.MapGet("/ciudad/{Id:int}", async (int Id, PrimerParcialApp db) =>
 {
     return await db.Ciudades.FindAsync(Id) is Ciudad ciudad ? Results.Ok(ciudad) : Results.NotFound();
@@ -96,7 +108,7 @@ app.MapGet("/ciudad/{Id:int}", async (int Id, PrimerParcialApp db) =>
 app.MapPut("/ciudad/{Id}", async (int Id, Ciudad ciudad, PrimerParcialApp db) =>
 {
     var ciu = await db.Ciudades.FindAsync(Id);
-
+    Console.WriteLine(ciudad);
     if (ciu is null) return Results.NotFound();
 
     ciu.Id = ciudad.Id;
